@@ -8,13 +8,19 @@
 #Example calls
 
 - Return all the notes
+```javascript
 GET http://localhost:3001/notes 
+```
 
 - Return the first note with id 1
+```javascript
 GET http://localhost:3001/notes/1 
+```
 
 - Delete the note with id 1 if it exists (does not check if exists)
- - DELETE http://localhost:3001/notes/1 
+```javascript
+DELETE http://localhost:3001/notes/1 
+```
 
 - Add a note
 ```javascript
