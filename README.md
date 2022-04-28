@@ -14,9 +14,10 @@ GET http://localhost:3001/notes
 GET http://localhost:3001/notes/1 
 
 - Delete the note with id 1 if it exists (does not check if exists)
-DELETE http://localhost:3001/notes/1 
+ - DELETE http://localhost:3001/notes/1 
 
 - Add a note
+```javascript
 POST http://localhost:3001/notes
 Content-Type: application/json
 
@@ -24,3 +25,4 @@ Content-Type: application/json
     "name":"esto es una nueva nota",
     "important":true
 }
+```
